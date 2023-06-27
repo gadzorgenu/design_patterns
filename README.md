@@ -40,6 +40,27 @@ It lets you represent objects in a hierarchical structure, simplifying the clien
 5) **Facade Pattern:** Provides a simplified interface to a subsystem of classes, making it easier to use.
 It encapsulates a complex subsystem behind a simpler interface, providing a higher-level interface that is easier to understand and use.
 
+# Behavioural Patterns
+They focus on the interaction between objects, defining how they communicate and distribute responsibilities.
+They provide solutions for effective communication and collaboration between objects, enhancing flexibility and maintainability.
+Examples:
+
+1) **Observer pattern:** Defines one-to-many dependency between objects, so that when one object changes state, all its dependencies are notified and updated automatically. 
+It establishes a publish-subscribe relationship, where the observers ( subcribers) are notified of changes in the observed subject (publisher)
+
+2) **Strategy pattern:** Encapsulates interchangeable algorithms within a family of classes and makes them interchangeable at runtime.
+It allows you to define a family of algorithms and select one at runtime without tightly coupling the objects.
+
+3) **Command pattern:** Encapsulates a request as an object, therby allowing users to parameterize clients with queues, requests and operations.
+
+4) **Interpreter Pattern:** Defines a representation of grammar and provides an interpreter to interpret sentences in the language.
+
+5) **Template Method pattern:** Defines the skeleton of an algorithm in a base class, allowing subclasses to provide specific implementations of certain steps
+
+
+**Each design pattern categories addresses specific design problems and provides proven solutions that promote modularity, reusability, and maintainability in software development. 
+By understanding and utilizing these patterns, developers can improve the structure and flexibility of their code, making it easier to manage and extend over time.**
+
 
 # Java Reflection API
 
