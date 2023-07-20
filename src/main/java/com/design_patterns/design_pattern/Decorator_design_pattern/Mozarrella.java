@@ -12,6 +12,6 @@ public class Mozarrella extends ToppingDecorator{
     }
 
     public double getCost(){
-        return tempPizza.getCost() +.50;
+        return tempPizza.getCost() +.5;
     }
 }
