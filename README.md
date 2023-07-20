@@ -62,6 +62,8 @@ It allows you to define a family of algorithms and select one at runtime without
 By understanding and utilizing these patterns, developers can improve the structure and flexibility of their code, making it easier to manage and extend over time.**
 
 
+**Inheritance is static whilst composition is dynamic**
+
 # Java Reflection API
 
 Used as a class manipulator to manipulate classes and everything in a class.
