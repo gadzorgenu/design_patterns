@@ -1,19 +1,19 @@
 package com.design_patterns.design_pattern.Command_Design_Pattern;
 
-public class TurnTVOFF implements Command{
+public class TurnTVUP implements Command{
     ElectronicDevice theDevice;
 
-    public TurnTVOFF(ElectronicDevice newDevice){
+    public TurnTVUP(ElectronicDevice newDevice){
         theDevice = newDevice;
     }
 
     @Override
     public void execute() {
-        theDevice.off();
+        theDevice.volumeUp();
     }
 
     @Override
     public void undo() {
-        theDevice.on();
+        theDevice.volumeDown();
     }
 }
